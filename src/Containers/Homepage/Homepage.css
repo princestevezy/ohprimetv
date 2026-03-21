@@ -1,0 +1,252 @@
+html {
+  scroll-behavior: smooth;
+}
+@media(max-width:1200px){
+  #banner1 {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    background-image: url('https://res.cloudinary.com/prince-stevzy/image/upload/v1669034969/ohprime/blog_15_kw1bmc_vyiktt.png');
+    height:500px;
+    background-color: none;
+  }
+}    
+@media(max-width:600px){
+  #banner1 {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    background-image: url('https://res.cloudinary.com/prince-stevzy/image/upload/v1669034969/ohprime/blog_15_kw1bmc_vyiktt.png');
+    height:310px;
+    background-color: none;
+  }
+} 
+@media(min-width:1200px){
+  #banner1 {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    background-image: url('https://res.cloudinary.com/prince-stevzy/image/upload/v1669034969/ohprime/blog_15_kw1bmc_vyiktt.png');
+    height:600px;
+    margin-top:-1px;
+    background-color: none;
+  }
+}       
+@media(max-width:1200px){
+  #banner2 {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    background-image: url('https://res.cloudinary.com/prince-stevzy/image/upload/v1669021100/ohprime/Top_5_v7mihw.png');
+    height:500px;
+    margin-top:-1px;
+    background-color: none;
+  }
+}    
+@media(max-width:600px){
+  #banner2 {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    background-image: url('https://res.cloudinary.com/prince-stevzy/image/upload/v1669021100/ohprime/Top_5_v7mihw.png');
+    height:310px;
+    background-color: none;
+  }
+} 
+@media(min-width:1200px){
+  #banner2 {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    background-image: url('https://res.cloudinary.com/prince-stevzy/image/upload/v1669021100/ohprime/Top_5_v7mihw.png');
+    height:600px;
+    margin-top:-1px;
+    background-color: none;
+  }
+}      
+@media(max-width:1200px){
+  #banner3 {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    background-image: url('https://res.cloudinary.com/prince-stevzy/image/upload/v1669021608/ohprime/Chatline2_jaj6zq.png');
+    height:500px;
+    background-color: none;
+  }
+}    
+
+@media(max-width:600px){
+  #banner3 {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    width: 100%;
+    background-image: url('https://res.cloudinary.com/prince-stevzy/image/upload/v1669021608/ohprime/Chatline2_jaj6zq.png');
+    height:310px;
+    background-color: none;
+  }
+} 
+@media(min-width:1200px){
+  #banner3 {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    background-image: url('https://res.cloudinary.com/prince-stevzy/image/upload/v1669021608/ohprime/Chatline2_jaj6zq.png');
+    height:600px;
+    margin-top:-1px;
+    background-color: none;
+  }
+}           
+#color {
+  color: #c382ff;
+}
+@media(max-width:1000px) {
+  #break {
+    display: none;
+
+  }
+}
+
+.white {
+  color: white;
+}
+
+.iconimage {
+  width: 100px;
+  color: #301e5a;
+}
+
+.iconimage2 {
+  width: 150px;
+  padding: 20px;
+
+}
+
+@media (min-width: 1201px) {
+  .img-1 {
+    width: 400px;
+    height: auto;
+  }
+}
+
+@media (max-width: 1200px) {
+  .img-1 {
+    width: 340px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .img-1 {
+    width: 60%;
+  }
+}
+
+@media (max-width:600px) {
+  .img-1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+}
+
+@media (min-width: 1201px) {
+  .gallary-img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 1200px) {
+  .gallary-img {
+    width:100%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .gallary-img {
+    width: 100%;
+  }
+}
+
+@media (max-width:600px) {
+  .gallary-img {
+    width:100%;
+    
+  }
+}
+
+.row4{
+            text-align: center;
+            display: inline-block   
+
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:80%;
+
+}
+.center2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:80%;
+
+}
+
+@media(max-width:766px){
+.center2{
+
+        text-align: center;        
+
+}
+
+}
+.yellow{
+         color: yellowgreen;
+         padding:2px;
+
+}
+@media(max-width:768px){
+.c-t{
+        width:70%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+     
+
+}
+}
+@media(max-width:768px){
+.not-mobileview{
+                   
+                   display:none;
+
+}
+}
+@media(min-width:769px){
+  .mobileview{
+                     
+                     display:none;
+  
+  }
+  }
+  @media(max-width:768px){
+    .mobileview{
+                 margin-right: auto;
+                 margin-left: auto;
+                 display: block;
+                 width:100%;
+    
+    }
+    }
+    .center3 {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width:100%;
+    
+    }  

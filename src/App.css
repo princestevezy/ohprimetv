@@ -1,0 +1,92 @@
+
+@font-face {
+  src: url("./font/Sofia\ Pro\ Semi\ Bold\ Az.otf");
+  font-family: sofia bold;
+}
+@font-face {
+  src: url("./font/Sofia\ Pro\ Regular\ Az.otf");
+  font-family: sofia regular;
+}
+  body {
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    color: black;
+    font-family: sofia regular;
+    font-size: 20px;
+}
+@media(max-width:1024px) {
+  body {
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    color: black;
+    font-family: sofia regular;
+    font-size: 16px;
+  }
+}
+@media(min-width:1200px){
+  .a-h1{
+       width:40%;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       font-weight:bold;
+       color:black;
+  }
+  }
+  .span-h1{
+           color:red;
+           padding-left:6px;
+  }
+  .a-p{
+       
+       width:80%;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       font-weight:bold;
+       color:black;
+  
+  }
+  .a-row{
+     padding:30px;
+     justify-content: space-evenly;
+
+  }
+    .e{
+           
+             margin-bottom: 80px;
+             height:50px;
+    }
+  @media(max-width:768px){
+  .e{
+         
+           margin-bottom: 40px;
+  }
+  }
+  
+  @media(max-width:768px){
+    #l{
+           
+             display: none;
+    }
+    }
+    .mp{
+
+           width:200px;
+           height:auto;
+
+
+    }
+    @media(max-width:600px){
+    .tw{
+
+           width:70%;
+           margin-left: auto;
+           margin-right: auto;
+           display: block;
+
+    }
+  }
+  

@@ -1,0 +1,167 @@
+
+@media (min-width:769px) {
+  .webname {
+    color: white;
+    background-color:black;
+    padding: 8;
+    z-index: 20;
+    position: fixed;
+    height:auto ;
+    padding-bottom:10px;
+    width: 100%;
+    border:none;
+    top: 0;
+    
+  }
+}
+@media (max-width:768px) {
+  .webname {
+    color: white;
+    background-color:black;
+    position: fixed;
+    width: 100%;
+    height:auto;
+    top: 0;
+    padding: 11px;
+    z-index:5;
+    font-family:"Poppins", sans-serif; 
+  }
+}
+.ohprime-logo {
+  float: left;
+  padding-left:10px;
+  padding-right:10px;
+
+ margin-top:15px;
+  width: 50px;
+}
+.gs{
+  margin-right:10px;
+  background-color:red;
+  margin-top:-7px;
+  color:white;
+}
+.gs:hover{
+            color: white;
+
+
+}
+@media (orientation: landscape) {
+  font#head {
+    float: left;
+    ;
+    font-size: 33px;
+    
+  }
+}
+@media (orientation: portrait) {
+  font#head {
+    float: left;
+    font-size: 30px;
+  }
+}
+@media (max-width:320px) {
+  font#head {
+    float: left;
+    font-size:27px;
+  }
+}
+@media (max-width:300px) {
+  font#head {
+    float: left;
+    font-size:22px;
+  }
+}
+@media(min-width:769px){
+  #link {
+    float: right;
+    font-size: 12px;
+    margin-top:-1%;
+  }
+}
+@media(max-width:768px){
+  #link{
+            
+   display:none;
+  }
+}
+@media(min-width:769px){
+#phone-link{
+           display: none;
+}
+}
+@media (max-width:768px) {
+  #link {
+    display: none;
+  }
+}
+@media (max-width:768px) {
+  .logo {
+    float: left;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    background-color: #161616;
+    z-index: 1;
+    top: 0;
+    left: 0;
+  }
+}
+@media(min-width:769px){
+  #link {
+    float: right;
+    font-size: 12px;
+    margin-top:-1%;
+  }
+}
+@media(min-width:769px){
+#phone-link{
+             display:none;
+}
+}
+@media (max-width:768px) {
+  #link {
+    display: none;
+  }
+}
+@media (max-width:768px) {
+  .logo {
+    float: left;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    background-color: #161616;
+    z-index: 1;
+    top: 0;
+    left: 0;
+  }
+}
+  a {
+    text-decoration: none;
+    padding:10px;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 500;
+    font-size:18px;
+  }
+@media (max-width:768px) {
+  a {
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+  }
+}
+@media (max-width:768px) {
+  a {
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+  }
+}
+a:hover {
+  color: darkgray;
+}
