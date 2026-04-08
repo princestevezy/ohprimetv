@@ -32,13 +32,12 @@ function Getstarted(){
             </div>
             <div class='col-6'>
             <div class="mobileview">
-            <img src={getstarted[1]} class='dbutton' style={{width:"100%"}}/>
-            <a href="https://apps.apple.com/ng/app/oh-prime/id1573372232"><img src={getstarted[2]} class='dbutton' style={{width:"100%"}}/></a>
+            <a href="https://play.google.com/store/apps/details?id=com.open.heavens.ohprimes&hl=en"><img src={getstarted[2]} class='dbutton' style={{width:"100%"}}/></a> 
+            <a href="https://apps.apple.com/ng/app/oh-prime/id1573372232"><img src={getstarted[1]} style={{width:"100%"}}/></a>
             </div>
             <div class="not-mobileview">
             <div style={{display:"inline-block"}}>
-            <a href="https://apps.apple.com/ng/app/oh-prime/id1573372232"><img src={getstarted[2]} class='dbutton' style={{width:"50%"}}/></a> 
-
+            <a href="https://play.google.com/store/apps/details?id=com.open.heavens.ohprimes&hl=en"><img src={getstarted[2]} class='dbutton' style={{width:"50%"}}/></a> 
             <a href="https://apps.apple.com/ng/app/oh-prime/id1573372232"><img src={getstarted[1]} style={{width:"50%"}}/></a>
             </div>
             </div>
