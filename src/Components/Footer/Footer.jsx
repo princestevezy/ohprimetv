@@ -11,7 +11,7 @@ function Footer(){
                 <div class="row">
                 <div class="col-md-4">
                  <p class="oh-p1">Phone number</p>
-                 <p class="oh-p1"><i class="fa fa-phone c"></i> +23407051088063</p>
+                 <p class="oh-p1"><i class="fa fa-phone c"></i> +2347072735452</p>
                 </div>
                 <div class="col-md-4">
                  <p class="oh-p1">Email address</p>

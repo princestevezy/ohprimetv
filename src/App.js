@@ -4,7 +4,7 @@ import Home from './Containers/Homepage/Homepage';
 import About from './Containers/Aboutpage/Aboutpage';
 import Channel from './Containers/Channelspage/Channelspage';
 import Getstarted from './Containers/Getstartedpage/Getstartedpage';
-import Readmore from './Containers/Readmore/Readmore';
+import Contactus from './Containers/Contactus/Contactus';
 
 
 function App() {
@@ -16,11 +16,10 @@ function App() {
     <Route path='/about' element={<About/>} />
     <Route path='/channels' element={<Channel/>} />
     <Route path='/getstarted' element={<Getstarted/>} />
-    <Route path='/readmore' element={<Readmore/>} />
+    <Route path='/contactus' element={<Contactus/>} />
     </Routes> 
     </div>
     </Router>
 );
 }
-
 export default App;

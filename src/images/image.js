@@ -1,10 +1,4 @@
 
-import slide1 from './SLIDE_01.jpg';
-import slide2 from './SLIDE_02.jpg';
-import slide3 from './SLIDE_03.jpg';
-import slide4 from './SLIDE_04.jpg';
-import slide5 from './SLIDE_02.jpg';
-
 
 export const homeimages = [
                  /*Live Sport and TV-shows for family and best friends*/ 'https://res.cloudinary.com/prince-stevzy/image/upload/v1656411674/ohprime/live-sport_rgsr0c.png',
@@ -61,10 +55,7 @@ export const getstarted = [
 
 ]
 
-const slide=[slide1,slide2,slide3,slide4,slide5]
 
-
-export {slide}
 
 
 

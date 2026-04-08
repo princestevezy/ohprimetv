@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { slide } from "../../images/image"; 
 import './Navbar.css'
 
-
 function Navbar(active){
      return(
      <div>
@@ -14,6 +13,8 @@ function Navbar(active){
       <Link to="/"      style={active.home}>Home</Link>
       <Link to="/about" style={active.about}>About us</Link>
       <Link to="/channels" style={active.channels}>Channels</Link>
+       <Link to="/contactus" style={active.contactus}>Contact Us</Link>
+
       <Link to="/getstarted"> <button  className="btn gs" style={active.getstarted}>Get started</button></Link>
     </nav>
     <nav id="phone-link"  class='navbar navbar-dark h' style={{position:"fixed",width:"100%"}}>
@@ -31,6 +32,8 @@ function Navbar(active){
     <Link to='/about'>About us</Link>
     <br></br><br></br>
     <Link to='/channels' className="">Channels</Link>
+    <br></br><br></br>
+    <Link to='/channels' className="">Contact Us</Link>
     <br></br><br></br>
     <Link to='/getstarted' className="">Get started</Link>
     <br></br><br></br>

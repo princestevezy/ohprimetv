@@ -4,10 +4,8 @@ import Footer from "../../Components/Footer/Footer";
 import Backgroundimage from "../../Components/Backgroundimage/Backgroundimage";
 import './Aboutpage.css';
 
-
 function About(){
-  useEffect(()=>{
-      
+  useEffect(()=>{  
   },
   [])
       return(       
