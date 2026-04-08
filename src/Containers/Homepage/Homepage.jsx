@@ -54,7 +54,7 @@ function Home() {
               40.000 streams between TV channels and VOD,
               the world is open to you. Let’s join the Ohprime Family !
               <br></br><br></br>
-             <Link to='/readmore'><button className="btn btn" style={{ fontSize: "20px", backgroundColor: "red", color: "white" }}>Read more</button></Link>
+             <Link to='/getstarted'><button className="btn btn" style={{ fontSize: "20px", backgroundColor: "red", color: "white" }}> Get Started Now</button></Link>
             </p>
           </div>
         </div>
