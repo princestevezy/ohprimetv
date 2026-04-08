@@ -49,9 +49,6 @@ function Contactus() {
           <h1 class="text-center a-h1 tw">Contact
             <span className="span-h1">Us</span></h1>
           <div className="text-center" style={{ display: 'none' }}>
-            <Alert variant="success" id='success-alert'>
-              in progress
-            </Alert>
           </div>
           <br />
           <Container className="mt-5">
