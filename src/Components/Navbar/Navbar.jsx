@@ -1,12 +1,13 @@
+
 import React from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from "react-router-dom";
-import { slide } from "../../images/image"; 
 import './Navbar.css'
 
 function Navbar(active){
      return(
      <div>
-     <div class="webname">
+     <div className="webname pb-3">
      <img src="https://res.cloudinary.com/prince-stevzy/image/upload/v1682592838/m507t0006_retro_tv_20june22_03-removebg-preview_1_bya9e6.png" class="ohprime-logo"/>
      <font id="head">Ohprime Tv</font><br/>
      <nav id="link">
@@ -14,8 +15,8 @@ function Navbar(active){
       <Link to="/about" style={active.about}>About us</Link>
       <Link to="/channels" style={active.channels}>Channels</Link>
        <Link to="/contactus" style={active.contactus}>Contact Us</Link>
-
       <Link to="/getstarted"> <button  className="btn gs" style={active.getstarted}>Get started</button></Link>
+      <br/>
     </nav>
     <nav id="phone-link"  class='navbar navbar-dark h' style={{position:"fixed",width:"100%"}}>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" style={{top:"-21px",right:"0",position:"absolute",marginRight:"17px"}} data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,7 +34,7 @@ function Navbar(active){
     <br></br><br></br>
     <Link to='/channels' className="">Channels</Link>
     <br></br><br></br>
-    <Link to='/channels' className="">Contact Us</Link>
+    <Link to='/contactus' className="">Contact Us</Link>
     <br></br><br></br>
     <Link to='/getstarted' className="">Get started</Link>
     <br></br><br></br>
@@ -44,3 +45,7 @@ function Navbar(active){
   );
 }
 export default Navbar
+
+
+
+

@@ -1,21 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.8f93c732.css",
-    "main.js": "/static/js/main.3b33be05.js",
+    "main.css": "/static/css/main.cf591d14.css",
+    "main.js": "/static/js/main.f5dd80c6.js",
     "static/js/787.10a71273.chunk.js": "/static/js/787.10a71273.chunk.js",
-    "static/media/SLIDE_02.jpg": "/static/media/SLIDE_02.3770e63c874c118d0985.jpg",
-    "static/media/SLIDE_04.jpg": "/static/media/SLIDE_04.47fdd5f2840b4b1e2c4d.jpg",
-    "static/media/SLIDE_01.jpg": "/static/media/SLIDE_01.e5948dd96783de3d7bf6.jpg",
-    "static/media/SLIDE_03.jpg": "/static/media/SLIDE_03.c1b3ade70afb742926ff.jpg",
+    "static/media/Contact.jpg": "/static/media/Contact.1c333e13b02ba16b197f.jpg",
     "static/media/Sofia Pro Semi Bold Az.otf": "/static/media/Sofia Pro Semi Bold Az.2044892426acfe16ed20.otf",
     "static/media/Sofia Pro Regular Az.otf": "/static/media/Sofia Pro Regular Az.d36998f5d9772461be21.otf",
     "index.html": "/index.html",
-    "main.8f93c732.css.map": "/static/css/main.8f93c732.css.map",
-    "main.3b33be05.js.map": "/static/js/main.3b33be05.js.map",
+    "main.cf591d14.css.map": "/static/css/main.cf591d14.css.map",
+    "main.f5dd80c6.js.map": "/static/js/main.f5dd80c6.js.map",
     "787.10a71273.chunk.js.map": "/static/js/787.10a71273.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f93c732.css",
-    "static/js/main.3b33be05.js"
+    "static/css/main.cf591d14.css",
+    "static/js/main.f5dd80c6.js"
   ]
 }
