@@ -2,7 +2,7 @@ import React, { useState, useRef,useEffect } from "react";
 import Navbar from "../../Components/Navbar/Navbar";
 import Footer from "../../Components/Footer/Footer";
 import Backgroundimage from "../../Components/Backgroundimage/Backgroundimage";
-import { Container, Row, Col, Form, Button, Image } from "react-bootstrap";
+import { Container, Row, Col, Form, Button, Image,Card } from "react-bootstrap";
 import c from "../../images/Contact.jpg";
 import './Contactus.css';
 import emailjs from '@emailjs/browser';
@@ -42,28 +42,32 @@ function Contactus() {
       <Navbar contactus={{ color: "gray" }} />
       <Backgroundimage pagetitle1='Contact us' pagetitle2='Contact us'>
       </Backgroundimage>
-      <br />
-      <br />
+      <br/>
+      <br/>
       <div className="container">
         <div>
           <h1 class="text-center a-h1 tw">Contact
             <span className="span-h1">Us</span></h1>
-          <div className="text-center" style={{ display: 'none' }}>
-          </div>
           <br />
           <Container className="mt-5">
             <div className="bg-danger contact-section">
               <Row className="align-items-center">
-                {/* Image Section */}
                 <Col md={6}>
                   <Image
-                    src={c}
+                 src={c}
                     alt="Contact Us"
                     fluid
                     rounded
                   />
+                  <div className="contact-info mt-4">
+                   <h6><font>📍</font>  Address</h6>
+                   <p>Dove Television</p>
+                   <h6>📱 Phone Number</h6>
+                   <p> +2347072735452</p>
+                    <h6>📧 Email</h6>
+                    <p>info9oh-prime@gmail.com </p>
+                  </div>
                 </Col>
-                {/* Form Section */}
                 <Col md={6}>
                   <h2 className="mb-4">Contact Us</h2>
                   <Form ref={form} onSubmit={sendForm}>
